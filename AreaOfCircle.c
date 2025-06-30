@@ -2,18 +2,18 @@
 
 int main()
 {
-    float r ;
+    float radius ;
 
     printf("Enter radius :");
 
-    scanf("%f",&r);
+    scanf("%f",&radius);
 
     float pi = 3.1415;
 
-    float A = pi*r*r;
+    float Area = pi*radius*radius;
 
 
-    printf("Area of a corcle: %f" ,A);
+    printf("The Area of circle when radius %f is : %f" ,radius,Area);
 
     return 0;
 }
